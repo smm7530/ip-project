@@ -37,7 +37,7 @@
   </script>
   <h1>IP look up</h1>
   <user-ip></user-ip>
-  <user-ip ip="24.48.0.1"></user-ip>
+  <user-ip></user-ip>
   <script type="module">
     // this makes user-ip web component work
     import {UserIP} from "./src/UserIP.js";
@@ -63,6 +63,7 @@
     render(html`<button @click="${addIpTag}">Call the IP API</button>`, document.querySelector("#demo"));
   </script>
   <div id="demo"></div>
+  <script type = "module">
+  </script>
 </body>
-
 </html>

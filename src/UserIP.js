@@ -103,7 +103,7 @@ export class UserIP extends LitElement {
         return data;
       })
       .then(data => {
-        this.location = `${data.city}, ${data.country}`;
+        this.location = `${data.city}, ${data.state} ${data.country}`;
         return data;
       });
   }
